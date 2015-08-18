@@ -1,0 +1,27 @@
+// Suma.cpp : Defines the entry point for the console application.
+//Autor: Isaias Bustos 
+//Fecha: 18-08-2015
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+using namespace std;
+
+
+void main()
+{
+int A,B,C;
+cout<<"Ingrese un valor"<<endl;
+cin>>A;
+cout<<"Ingrese otro valor"<<endl;
+cin>>B;
+C=(A+B);
+cout<<"El resultado es:"<<C;
+C=(A-B);
+cout<<"El resultado es:"<<C;
+C=(A*B);
+cout<<"El resultado es:"<<C;
+C=(A/B);
+cout<<"El resultado es:"<<C;
+getch();
+}
